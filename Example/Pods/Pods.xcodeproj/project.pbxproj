@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		04D6C52D4E9AC224DC7C8CB0F5BD2212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		10BF45E2B1C6091EAC6F61473ABAE50A /* WLPresent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ACFE42282AD11F1969EF4C46DCC07BD /* WLPresent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DBAEF7B8869E0F1C696B6002E1E33B5 /* WLPresent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B0AC7473CB779F7384EB98D9748B6 /* WLPresent-dummy.m */; };
 		35F93280F871695D421C48BCBA3A154B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7D55B09B24FB0BC4E1727DF0C72F39AB /* Pods-WLPresent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9E4EF03368B250B44DC9D341EB8F96 /* Pods-WLPresent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96DBA7147102BC9ADE518D1A2543E33E /* Pods-WLPresent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE72231BE302E7177F2EB6D628F82B0 /* Pods-WLPresent_Example-dummy.m */; };
 		9BDC92AE786EF3570105B5FC96EC52E9 /* Pods-WLPresent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB4DFF00CC5AE918C33D7E62D23B59A /* Pods-WLPresent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D554395FA6639892BED895057AEFC06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A16E5950BFB3B45F88400D474AED4415 /* WLPresent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C579A97DC018979C27B03D0E40B0345 /* WLPresent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFBF3CD001793BD5671112A16C14967A /* WLPresent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3070662322DE3EF28D2D075844D5D74A /* WLPresent-dummy.m */; };
 		C2078CBA74814ED3F2062B32C70A37E6 /* Pods-WLPresent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A67714795C4200707B325A50A14211 /* Pods-WLPresent_Tests-dummy.m */; };
-		E110CA4DF4655B1BEC08BB08A5C4EED5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF47C72C7A61602FF86F95B555C475E /* ReplaceMe.m */; };
+		C8A17C48B275B69BE42191B3F6A1D32F /* WLPresent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC5E25BAA57B74FEC611BA54ABDD3F4 /* WLPresent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED138903ED11A07AEF1A38D520FEFCF0 /* WLPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0029265C2DF672246C438F4A239B5BB3 /* WLPresent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,39 +38,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0029265C2DF672246C438F4A239B5BB3 /* WLPresent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLPresent.m; path = WLPresent/Classes/WLPresent.m; sourceTree = "<group>"; };
 		09B48941DB187466F6B7AA0392EAFB71 /* Pods_WLPresent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLPresent_Example.framework; path = "Pods-WLPresent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB4DFF00CC5AE918C33D7E62D23B59A /* Pods-WLPresent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLPresent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0ACFE42282AD11F1969EF4C46DCC07BD /* WLPresent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLPresent-umbrella.h"; sourceTree = "<group>"; };
 		0C9E4EF03368B250B44DC9D341EB8F96 /* Pods-WLPresent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLPresent_Example-umbrella.h"; sourceTree = "<group>"; };
 		17DCBE6A8CE1A191ED50814913D479E2 /* WLPresent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WLPresent.framework; path = WLPresent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D0052C514234C7D1483A13366133E3 /* Pods-WLPresent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLPresent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2CDDDF217CEF8A5495C01068566AE16F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E5FBEAFE48CCFF8F7B2BC943EDF18D2 /* Pods_WLPresent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLPresent_Tests.framework; path = "Pods-WLPresent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		325B6B0551BDD1BBBB48767454CF317E /* WLPresent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLPresent-prefix.pch"; sourceTree = "<group>"; };
+		3070662322DE3EF28D2D075844D5D74A /* WLPresent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLPresent-dummy.m"; sourceTree = "<group>"; };
+		31B62F2949640F87E7636EECADA1A89C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		38A67714795C4200707B325A50A14211 /* Pods-WLPresent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLPresent_Tests-dummy.m"; sourceTree = "<group>"; };
-		3C02723829B1C178A03EE5BAB9DD7506 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3C87A4A568DE2DFA1E9E10ADAEC23FAE /* WLPresent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLPresent.modulemap; sourceTree = "<group>"; };
+		3F865DE03720387D276196F7E5BB1524 /* WLPresent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WLPresent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		47237085D8EE1276248888AD4ED1BC29 /* Pods-WLPresent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLPresent_Example.modulemap"; sourceTree = "<group>"; };
+		4C579A97DC018979C27B03D0E40B0345 /* WLPresent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLPresent.h; path = WLPresent/Classes/WLPresent.h; sourceTree = "<group>"; };
 		5011E837CC0DA25DB60347645BDEDA2B /* Pods-WLPresent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLPresent_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5208453D10DB82FB960DF1FC920458A3 /* Pods-WLPresent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLPresent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		590B0AC7473CB779F7384EB98D9748B6 /* WLPresent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLPresent-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C8592BDF68146BE2D779B9029DEAB7C /* Pods-WLPresent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLPresent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CE84D1CC43D76B217EE26808DDA83D3 /* WLPresent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLPresent-prefix.pch"; sourceTree = "<group>"; };
 		5E635A2DF9D21D7140512A2257F157D9 /* Pods-WLPresent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLPresent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6FA2BA110E56C5EDEC939DB1B3ACECD4 /* Pods-WLPresent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLPresent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70595721C51A99A768C014C3A7D104E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78E698D12D9EEE9EDE91E91A9B4F3A6A /* Pods-WLPresent_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLPresent_Tests-resources.sh"; sourceTree = "<group>"; };
 		7A4BAABA2104FCB833E27B5D14FBFD89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8067E9B9BE66819E0517D756CA965876 /* Pods-WLPresent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLPresent_Tests.modulemap"; sourceTree = "<group>"; };
-		84199648E5CB1A5E590EB72B44B92C02 /* WLPresent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WLPresent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		853263308B757DB56D58BB3E9DB8964F /* WLPresent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLPresent.xcconfig; sourceTree = "<group>"; };
+		8C13F0AA3BB6DAB1DE97A5EA845A67D0 /* WLPresent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLPresent.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		967A127E5388926A9F8F1DE98940872A /* Pods-WLPresent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLPresent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A4A5D1112FB2E028A51FB41905C77FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A0B6DECB6C287F6508516199094E462A /* Pods-WLPresent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLPresent_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		ACC5E25BAA57B74FEC611BA54ABDD3F4 /* WLPresent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLPresent-umbrella.h"; sourceTree = "<group>"; };
 		ADE72231BE302E7177F2EB6D628F82B0 /* Pods-WLPresent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLPresent_Example-dummy.m"; sourceTree = "<group>"; };
-		C8F4B262E0F5ACBD048B18A039AD3695 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBF47C72C7A61602FF86F95B555C475E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WLPresent/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BA6E495A9ED4D7BC1E98B5409C363922 /* WLPresent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLPresent.xcconfig; sourceTree = "<group>"; };
 		CDA334F4CC7E86516FB4B055C8F746F3 /* Pods-WLPresent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLPresent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CE207C36CAAF7A34015A83C537D20E6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D2DB18E35896FE8FAA3835C9B57553FD /* Pods-WLPresent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLPresent_Example-resources.sh"; sourceTree = "<group>"; };
 		D659CBC470C0771FB580A93D2B9A3662 /* Pods-WLPresent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLPresent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,18 +104,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01FCEB5849FEBD380C193848542D608F /* Support Files */ = {
+		01AEB45FD876E527DB5426ABC519E003 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C8F4B262E0F5ACBD048B18A039AD3695 /* Info.plist */,
-				3C87A4A568DE2DFA1E9E10ADAEC23FAE /* WLPresent.modulemap */,
-				853263308B757DB56D58BB3E9DB8964F /* WLPresent.xcconfig */,
-				590B0AC7473CB779F7384EB98D9748B6 /* WLPresent-dummy.m */,
-				325B6B0551BDD1BBBB48767454CF317E /* WLPresent-prefix.pch */,
-				0ACFE42282AD11F1969EF4C46DCC07BD /* WLPresent-umbrella.h */,
+				31B62F2949640F87E7636EECADA1A89C /* LICENSE */,
+				9A4A5D1112FB2E028A51FB41905C77FE /* README.md */,
+				3F865DE03720387D276196F7E5BB1524 /* WLPresent.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WLPresent";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		052F6A5ED2529D47E08C3045BEB5F96B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F784D3F4EE4B3B951D78D5DCD9756F77 /* WLPresent */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		227D5A89FB0F10D58C8F32721D685CFC /* Pods-WLPresent_Tests */ = {
@@ -132,24 +138,6 @@
 			);
 			name = "Pods-WLPresent_Tests";
 			path = "Target Support Files/Pods-WLPresent_Tests";
-			sourceTree = "<group>";
-		};
-		2481780C01F3E66D840E840C480E3BD9 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8B1F5B97E7ED78E4E3E53C374DBAECFF /* WLPresent */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		36FD99B7250B894D244D04DA544AC9F6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CE207C36CAAF7A34015A83C537D20E6C /* LICENSE */,
-				3C02723829B1C178A03EE5BAB9DD7506 /* README.md */,
-				84199648E5CB1A5E590EB72B44B92C02 /* WLPresent.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		4AB94463F0759ED6EDA0FED7E70426CE /* Products */ = {
@@ -192,22 +180,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2481780C01F3E66D840E840C480E3BD9 /* Development Pods */,
+				052F6A5ED2529D47E08C3045BEB5F96B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				4AB94463F0759ED6EDA0FED7E70426CE /* Products */,
 				F2A6EEC7FA502B8958AB221F4A6556A9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8B1F5B97E7ED78E4E3E53C374DBAECFF /* WLPresent */ = {
-			isa = PBXGroup;
-			children = (
-				CBF47C72C7A61602FF86F95B555C475E /* ReplaceMe.m */,
-				36FD99B7250B894D244D04DA544AC9F6 /* Pod */,
-				01FCEB5849FEBD380C193848542D608F /* Support Files */,
-			);
-			name = WLPresent;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -218,6 +195,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C8A5F02C1CEC720EE6CC97F17EB0572E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70595721C51A99A768C014C3A7D104E6 /* Info.plist */,
+				8C13F0AA3BB6DAB1DE97A5EA845A67D0 /* WLPresent.modulemap */,
+				BA6E495A9ED4D7BC1E98B5409C363922 /* WLPresent.xcconfig */,
+				3070662322DE3EF28D2D075844D5D74A /* WLPresent-dummy.m */,
+				5CE84D1CC43D76B217EE26808DDA83D3 /* WLPresent-prefix.pch */,
+				ACC5E25BAA57B74FEC611BA54ABDD3F4 /* WLPresent-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WLPresent";
+			sourceTree = "<group>";
+		};
 		F2A6EEC7FA502B8958AB221F4A6556A9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +216,18 @@
 				227D5A89FB0F10D58C8F32721D685CFC /* Pods-WLPresent_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F784D3F4EE4B3B951D78D5DCD9756F77 /* WLPresent */ = {
+			isa = PBXGroup;
+			children = (
+				4C579A97DC018979C27B03D0E40B0345 /* WLPresent.h */,
+				0029265C2DF672246C438F4A239B5BB3 /* WLPresent.m */,
+				01AEB45FD876E527DB5426ABC519E003 /* Pod */,
+				C8A5F02C1CEC720EE6CC97F17EB0572E /* Support Files */,
+			);
+			name = WLPresent;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,19 +241,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		762F0AD42F30A198A97098DC52E04948 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10BF45E2B1C6091EAC6F61473ABAE50A /* WLPresent-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		826794CCB1401FF97910984D1752EDDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9BDC92AE786EF3570105B5FC96EC52E9 /* Pods-WLPresent_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5ADC3C7BA065BF28F99A1F1B1DE0FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A17C48B275B69BE42191B3F6A1D32F /* WLPresent-umbrella.h in Headers */,
+				A16E5950BFB3B45F88400D474AED4415 /* WLPresent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +283,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F67C0585E605612C787AEA5DFE9D88FB /* Build configuration list for PBXNativeTarget "WLPresent" */;
 			buildPhases = (
-				DCDC3C13BA0FDBCB339A01448602CB92 /* Sources */,
+				42493569A49CEFF736E9A8A1FC721A58 /* Sources */,
 				C54CF704886ABE414F6FBA45A611AB70 /* Frameworks */,
-				762F0AD42F30A198A97098DC52E04948 /* Headers */,
+				EF5ADC3C7BA065BF28F99A1F1B1DE0FC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -339,20 +343,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		42493569A49CEFF736E9A8A1FC721A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBF3CD001793BD5671112A16C14967A /* WLPresent-dummy.m in Sources */,
+				ED138903ED11A07AEF1A38D520FEFCF0 /* WLPresent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6DE8DBCF44D9E97025682163B8952B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C2078CBA74814ED3F2062B32C70A37E6 /* Pods-WLPresent_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCDC3C13BA0FDBCB339A01448602CB92 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E110CA4DF4655B1BEC08BB08A5C4EED5 /* ReplaceMe.m in Sources */,
-				1DBAEF7B8869E0F1C696B6002E1E33B5 /* WLPresent-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,7 +609,7 @@
 		};
 		DC5572CBA1A59B901B0CDC4A5F2DCD19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 853263308B757DB56D58BB3E9DB8964F /* WLPresent.xcconfig */;
+			baseConfigurationReference = BA6E495A9ED4D7BC1E98B5409C363922 /* WLPresent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -669,7 +673,7 @@
 		};
 		E3DBCBD7C64F46BE25CA953F7BB75164 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 853263308B757DB56D58BB3E9DB8964F /* WLPresent.xcconfig */;
+			baseConfigurationReference = BA6E495A9ED4D7BC1E98B5409C363922 /* WLPresent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WLPresent.h"
 
 FOUNDATION_EXPORT double WLPresentVersionNumber;
 FOUNDATION_EXPORT const unsigned char WLPresentVersionString[];

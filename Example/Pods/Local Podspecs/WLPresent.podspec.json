@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of WLPresent.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1587272615@qq.com/WLPresent",
+  "homepage": "https://github.com/wangxiaoli/WLPresent",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "1587272615@qq.com": "1587272615@qq.com"
+    "wangxiaoli": "wangxiaoli"
   },
   "source": {
-    "git": "https://github.com/1587272615@qq.com/WLPresent.git",
+    "git": "https://github.com/wangxiaoli/WLPresent.git",
     "tag": "0.1.0"
   },
   "platforms": {
