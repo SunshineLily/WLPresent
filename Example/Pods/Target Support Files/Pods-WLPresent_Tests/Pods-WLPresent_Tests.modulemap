@@ -1,0 +1,6 @@
+framework module Pods_WLPresent_Tests {
+  umbrella header "Pods-WLPresent_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
